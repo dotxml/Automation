@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [myFirstSuite]">
+  <test thread-count="5" name="myFirstTest(failed)">
+    <classes>
+      <class name="com.testcodes.AlertPopUp">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testcodes.AlertPopUp -->
+      <class name="com.testcodes.DynamicStartWithAndSubmit">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.testcodes.DynamicStartWithAndSubmit -->
+      <class name="com.testcodes.SignInPage">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.testcodes.SignInPage -->
+      <class name="com.testcodes.CompleteIDDynamic">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testcodes.CompleteIDDynamic -->
+      <class name="com.testcodes.FirstSignUpPage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testcodes.FirstSignUpPage -->
+      <class name="com.testcodes.AlertPrompt">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.testcodes.AlertPrompt -->
+      <class name="com.testcodes.DynamicEndsWithAndSubmit">
+        <methods>
+          <include name="afterTest"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.testcodes.DynamicEndsWithAndSubmit -->
+    </classes>
+  </test> <!-- myFirstTest(failed) -->
+</suite> <!-- Failed suite [myFirstSuite] -->
